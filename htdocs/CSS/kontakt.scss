@@ -1,84 +1,377 @@
-.kontakt-information-container{
-    left: 50px;
-    top: 197 px;
-    width: 554px;
-    height: 856px;
-    background: #FBF6F0; 
+//Zakopianka
+
+.infromation-about-shop-zakopianka-container{
+    top: 201px;
+    left:435px;
+    width: 410px;
+    height: 622px;
+  background: #FBF6F0; 
+  border-radius: 20px; 
+  border: 1px #346112 solid
+}
+
+
+.video-road-to-shop-container{
+    top:218px;
+    left:486px ;
+    width: 410px;
+    height: 622px;
     border-radius: 20px; 
     border: 1px #346112 solid
 }
 
-        .road-to-shop-video-zakopianka{
-        top:215px;
-        left: 106px ;
-        width: 442px;
-        height: 548px;
-        border-radius: 20px;
-        border: 1px solid #346112;
-        background: #FBF6F0
-        }
-
-.kontakt-information-container-galeria-krakowska{
-    left: 676px;
-    top: 732px;
-    width: 554px;
-    height: 856px;
-    background: #FBF6F0; 
-    border-radius: 20px; 
-    border: 1px #346112 solid 
+.video-road-to-shop{
+    width: 410px;
+    height: 622px;
 }
-    .road-to-shop-video-galeria-krakowska{
-        top:215px;
-        left: 106px ;
-        width: 442px;
-        height: 548px;
-        border-radius: 20px;
-        border: 1px solid #346112;
-        background: #FBF6F0
-        }
-    
-    .road-to-shop-video-zakopianka-title-container{
-        top:782px;
-        left: 50px ;
-        width: 554px;
-        height: 55px
-    }
 
-    .road-to-shop-video-galeria-krakowska-title-container{
-        top:782px;
-        left: 676px ;
-        width: 554px;
-        height: 55px
-    }
+.shop-title-zakopianka{
+   top:564px;
+   left:435px; 
+   width: 410px; 
+   height: 23px; 
+   text-align: center; 
+   color: black; 
+   font-size: 20px; 
+   font-family: Nunito Sans; 
+   font-weight: 700; 
+   word-wrap: break-word
+}
 
-   .road-to-shop-video-title-text{
-        color: #000;
-        text-align: center;
-        font-family: Nunito Sans;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal
-   }
+.map-image-zakopianka{
+    top:643px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
 
-   .road-to-shop-video-shop-adres{
-        color: #000;
-        text-align: center;
-        font-family: Nunito Sans;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal
-   }
+.kontakt-information-text-adres-zakopianka{
+    top:643px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+} 
 
-   .kontakt-information-links-container-zakopianka{
-    top:863px;
-    left: 198px;
-    width: 258px; 
-    height: 166px; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 8px; 
-    display: inline-flex
-   }
+.instagram-image-zakopianka{
+    top:686px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
+
+.kontakt-information-text-instagram-zakopianka{
+    top:686px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.facebook-image-zakopianka{
+    top:729px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
+
+.kontakt-information-text-facebook-zakopianka{
+    top:729px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.e-mail-image-zakopianka{
+    top:772px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
+
+.kontakt-information-text-e-mail-zakopianka{
+    top:772px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.phone-image-zakopianka{
+    top:815px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
+
+.kontakt-information-text-phone-number-zakopianka{
+    top:815px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+
+//Galeria Krakowska
+
+.infromation-about-shop-galeria-krakowska-container{
+    top: 870px;
+    left:435px;
+    width: 410px;
+    height: 622px;
+  background: #FBF6F0; 
+  border-radius: 20px; 
+  border: 1px #346112 solid
+}
+
+
+.video-road-to-shop-container{
+    top:887px;
+    left:486px ;
+    width: 410px;
+    height: 622px;
+    border-radius: 20px; 
+    border: 1px #346112 solid
+}
+
+.video-road-to-shop{
+    width: 410px;
+    height: 622px;
+}
+
+.shop-title-galeria-krakowska{
+    top:1233px;
+    left:435px; 
+    width: 410px; 
+    height: 23px; 
+    text-align: center; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+ }
+
+.map-image-galeria-krakowska{
+    top:1312px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
+
+.kontakt-information-text-adres-galeria-krakowska{
+    top:1312px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+} 
+
+.instagram-image-galeria-krakowska{
+    top:1355px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
+
+.kontakt-information-text-instagram-galeria-krakowska{
+    top:1355px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.facebook-image-galeria-krakowska{
+    top:1398px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
+
+.kontakt-information-text-facebook-galeria-krakowska{
+    top:1398px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.e-mail-image-galeria-krakowska{
+    top:1441px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
+
+.kontakt-information-text-e-mail-galeria-krakowska{
+    top:1441px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.phone-image-galeria-krakowska{
+    top:1484px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
+
+.kontakt-information-text-phone-number-galeria-krakowska{
+    top:1484px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+
+//Wadowice
+
+.infromation-about-shop-wadowice-container{
+    top: 1385px;
+    left:435px;
+    width: 410px;
+    height: 622px;
+  background: #FBF6F0; 
+  border-radius: 20px; 
+  border: 1px #346112 solid
+}
+
+
+.video-road-to-shop-container{
+    top:1404px;
+    left:486px ;
+    width: 410px;
+    height: 622px;
+    border-radius: 20px; 
+    border: 1px #346112 solid
+}
+
+.video-road-to-shop{
+    width: 410px;
+    height: 622px;
+}
+
+.shop-title-wadowice{
+    top:1772px;
+    left:435px; 
+    width: 410px; 
+    height: 23px; 
+    text-align: center; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+ }
+
+.map-image-wadowice{
+    top:1981px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
+
+.kontakt-information-text-adres-wadowice{
+    top:1981px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+} 
+
+.instagram-image-wadowice{
+    top:2024px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
+
+.kontakt-information-text-instagram-wadowice{
+    top:2024px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.facebook-image-wadowice{
+    top:2067px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
+
+.kontakt-information-text-facebook-wadowice{
+    top:2067px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.e-mail-image-wadowice{
+    top:2110px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
+
+.kontakt-information-text-e-mail-wadowice{
+    top:2110px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.phone-image-wadowice{
+    top:2153px;
+    left:507px ;
+    width: 35px;
+    height: 35px 
+}
+
+.kontakt-information-text-phone-number-wadowice{
+    top:2153px;
+    left:551px ;
+    color: black; 
+    font-size: 12px; 
+    font-family: Nunito Sans; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
