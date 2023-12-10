@@ -2,11 +2,17 @@
 @import "colors";
 @import "globals";
 @import "resolutions";
-@import "kontakt";
+@import "carouseldescription";
+@import "carousel";
+@import "badanie-wzroku";
 @import "soczewki-wieloogniskowe";
+@import "kontakt";
 // Layout
 @import "Layout/header";
-@import "carouseldescription";
-/*
-@import "Layout/menu";*/
+@import "Layout/footer";
 
+
+
+.main-page-container{
+  margin: 0px
+}
