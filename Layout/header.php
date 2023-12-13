@@ -1,43 +1,40 @@
 <header class="header">
 
-    <div class="header-container-left">
-        <img class="header-container-left-logo" src="../Universal/Logo.jpg" alt = "Logo"/>
-    </div>
+<div class="button-container">
+    <?php
+        $buttons = array(
+            array('label' => 'Badanie', 'image' => './Universal/more.png', 'link' => 'strona1.php'),
+            array(
+                'label' => 'Produkty',
+                'image' => './Universal/more.png',
+                'submenu' => array(
+                    array('label' => 'Soczewki jednoogniskowe', 'link' => 'podstrona1.php'),
+                    array('label' => 'Soczewki wieloogniskowe', 'link' => 'podstrona2.php')
+                )
+            ),
+            array('label' => 'Kontakt', 'image' => './Universal/more.png', 'link' => 'strona2.php'),
+            array('label' => 'Informacje', 'image' => './Universal/more.png', 'link' => 'strona4.php')
+        );
 
-    <nav class="header-container-center-menu">
+        foreach ($buttons as $button) {
+            echo '<div class="button">';
+            echo $button['label'];
+            
+            if (isset($button['submenu'])) {
+                echo '<ul class="submenu">';
+                foreach ($button['submenu'] as $submenuItem) {
+                    echo '<li><a href="' . $submenuItem['link'] . '">' . $submenuItem['label'] . '</a></li>';
+                }
+                echo '</ul>';
+            }
 
-        <div class="header-container-center-menu-button">
-            <div class="width: 189px; height: 64px; left: 0px; top: 0px; position: absolute">
-                <div class="header-container-center-menu-button-background"></div>
-                <div class="header-container-center-menu-button-inscription">Badanie</div>
-            </div>
-            <img class="header-container-center-menu-button-image" src="/Universal/more.png" />
-        </div>
+            echo '<img src="' . $button['image'] . '" alt="Strzałeczka">';
+            echo '</div>';
+        }
+    ?>
+</div>
 
-        <div class="header-container-center-menu-button">
-            <div class="header-container-center-menu-button-position">
-                <div class="header-container-center-menu-button-background"></div>
-                <div class="header-container-center-menu-button-inscription">Produkty</div>
-            </div>
-            <img class="header-container-center-menu-button-image" src="/Universal/more.png" />
-        </div>
 
-        <div class="header-container-center-menu-button">
-            <div class="header-container-center-menu-button-position">
-                <div class="header-container-center-menu-button-background"></div>
-                <div class="header-container-center-menu-button-inscription">Kontakt</div>
-            </div>
-            <img class="header-container-center-menu-button-image" src="/Universal/more.png" />
-        </div>
-
-        <div class="header-container-center-menu-button">
-            <div class="header-container-center-menu-button-position">
-                <div class="header-container-center-menu-button-background"></div>
-                <div class="header-container-center-menu-button-inscription">Informacje</div>
-            </div>
-            <img class="header-container-center-menu-button-image" src="/Universal/more.png" />
-        </div>
-    </nav>
 
 </header>
 
