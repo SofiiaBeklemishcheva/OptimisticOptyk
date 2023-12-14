@@ -9,9 +9,36 @@
 
 <p class = "lenses-general-description">Mają 1 docelową moc i są najpopularniejszym rozwiązaniem dla osób, które potrzebują korekty wady wzroku.</p>
 <h2 class = "lenses-feature-title">Materiały soczewek okularowych</h2>
+<?php
 
+$title = "Lens Type 1";
+$description = "Description for Lens Type 1";
+include 'lenses-description.php';
+
+$title = "Lens Type 2";
+$description = "Description for Lens Type 2";
+include 'lenses-description.php';
+?>
 <h2 class = "lenses-feature-title">Specyficzne materiały soczewek plastikowych</h2>
+
+<?php
+$title = "Lens Type 3";
+$description = "Description for Lens Type 3";
+include 'lenses-description.php';
+
+$title = "Lens Type 4";
+$description = "Description for Lens Type 4";
+include 'lenses-description.php';
+?>
+
 <h2 class = "lenses-feature-title">Porównanie stopni redukcji grubości</h2>
+<?php
+$carouselElementImage = "";
+include 'carousel.php';
+?>
+
+
+
 <h2 class = "lenses-feature-title">Konstrukcje soczewek jednoogniskowych</h2>
 <h2 class = "lenses-feature-title">Powłoki na szkłach okularowych oraz inne uszlachetnienia</h2>
 <p class = "lenses-general-description">
