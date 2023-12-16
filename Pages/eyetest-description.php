@@ -13,16 +13,36 @@
     <img class = "eyetest-general-description-image" src="https://via.placeholder.com/110x100" 00/>
 </div>
 
-<div class = "eyetest-proces-decription-container">
-        <div class = "eyetest-proces-decription-title">Proces przeprowadzenia badania</div>
-    <div class = "eyetest-proces-step-decription-container">
-        <div class = "eyetest-proces-step-decription-background"></div>
-        <div  class = "eyetest-proces-step-number" style="width: 106.89px; height: 33.76px; left: 27.43px; top: 143.50px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Nunito Sans; font-weight: 700; word-wrap: break-word">Krok 1</div>
-        <div class = "eyetest-proces-step-description"  style="width: 134.33px; height: 53.06px; left: 14.19px; top: 178.47px; position: absolute; text-align: center; color: black; font-size: 14px; font-family: Nunito Sans; font-weight: 700; word-wrap: break-word">Wywiad</div>
-        <img class = "eyetest-proces-step-description-image"  style="width: 94.60px; height: 100px; left: 34.05px; top: 23px; position: absolute" src="https://via.placeholder.com/95x100" />
-    </div>
-   
+<h2 class = "eyetest-proces-decription-title">Proces przeprowadzenia badania</h2>
+
+<?php include 'eyetest_process.php'; ?>
+
+<div class="eyetest-proces-decription-container">
+    <?php eyetestProcessStep("Krok 1", "Wywiad", "https://via.placeholder.com/95x100"); ?>
+    <?php eyetestProcessStep("Krok 2", "Badanie autorefrektometrem", "https://via.placeholder.com/95x100"); ?>
+    <?php eyetestProcessStep("Krok 3", "Badanie manualne", "https://via.placeholder.com/95x100"); ?>
+    <?php eyetestProcessStep("Krok 4", "Rekomendacje od specjalisty", "https://via.placeholder.com/95x100"); ?>
 </div>
 
+<h2 class = "eyetest-cost-title">Koszt badania wzroku</h2>
+
+<?php include 'eyetest_cost_component_simple.php'; ?>
+
+<?php generateEyetestCostComponentSimple("14 zł", "Przy zakupie okularów"); ?>
+<?php generateEyetestCostComponentSimple("129 zł", "Samo badanie*"); ?>
+<?php generateEyetestCostComponentSimple("159 zł", "Dobór soczewek kontaktowych*"); ?>
+
+
+<?php include 'button_component.php'; ?>
+
+<div class = "eyetest-limitations-description-container">
+    <div class = "eyetest-limitations-description-background"></div>
+    <p class = "eyetest-limitations-description-text">
+    Nasze usługi obejmują ocenę ostrości widzenia oraz doboru okularów i soczewek kontaktowych. Warto jednak zaznaczyć, że nie przeprowadzamy diagnostyki chorób oczu, nie wystawiamy recept na leki, ani nie wykonujemy procedur związanych z wyjmowaniem ciał obcych z oczu.
+    </p>
+    <img class = "eyetest-limitations-description-image" src="https://via.placeholder.com/110x100" 00/>
+</div>
+
+<?php generateButton("Umów wizytę", "reservating-eyetest-termin.php"); ?>
 </body>
 </html>
