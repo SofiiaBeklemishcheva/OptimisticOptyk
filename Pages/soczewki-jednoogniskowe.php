@@ -34,6 +34,9 @@ include 'lenses-description.php';
 <h2 class = "lenses-feature-title">Porównanie stopni redukcji grubości</h2>
 <?php
 $carouselElementImage = "";
+$carouselElementImage = "";
+$carouselElementImage = "";
+$carouselElementImage = "";
 include 'carousel.php';
 ?>
 
