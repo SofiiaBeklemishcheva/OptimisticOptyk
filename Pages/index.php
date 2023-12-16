@@ -8,13 +8,16 @@
 </head>
 <body>
 <?php include ("./Layout/header.php");?>
-<carouseldescription class="carousel-description">
-<div class="carousel-description-position">
-    <div class="carousel-description-background"></div>
-    <div class="carousel-description-text">OFERTY SPECJALNE*</div>
-</div>
-</carouseldescription>
 
+<?php
+$specialOfferCarouselElementImage = "";
+$specialOfferCarouselElementImage = "";
+$specialOfferCarouselElementImage = "";
+$specialOfferCarouselElementImage = "";
+$specialOfferCarouselElementImage = "";
+include ("./Components/special-offers-carousel-element.php");?>
 
+<?php include ("./Components/services.php"); ?>
+<?php include 'lenses_producers.php'; ?>
 </body>
 </html>

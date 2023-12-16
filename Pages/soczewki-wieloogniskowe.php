@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Optimistic Optyk Soczewki Woeloogniskowe</title>
+    <title>Optimistic Optyk Soczewki Wieloogniskowe</title>
 </head>
 <body>
     <?php include ("./Layout/header.php");?>
