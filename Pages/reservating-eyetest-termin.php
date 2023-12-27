@@ -6,24 +6,39 @@
 </head>
 <body>
     <h>Zapisz się na badanie wzroku</h>
+<form action="/action_page.php" method="post" class = "eyetest-reservation-form" id = "eyetest-reservation-form">
+    <?php $eyetest_kind = array (
+    array("lenses","Dobór soczewek kontaktowych"),
+    array("glasses","Dobór okularów korekcyjnych")
+    );
+    ?>
+    <?php include '../Component/form-select-component.php'; ?>
+<?php generateFormSelectedComponent("eyetest_kind",  "Wybierz rodzaj badania", $eyetest_kind); ?>
+    <?php $eyetest_localization = array (
+        array("galeria_krakowska","Galeria Krakowska (Pawia 5, 31-154 Kraków)"),
+        array("park_handlowy_zakopianka","Park Handlowy Zakopianka (ul. Zakopiańska 62, 30-418 Kraków)")
+    );
+    ?>
 
-    <?php include 'form-select-component.php'; ?>
-<?php generateFormSelectedComponent("Wybierz rodzaj badania", ["Dobór soczewek kontaktowych", "Dobór okularów korekcyjnych"]); ?>
-<?php generateFormSelectedComponent("Wybierz lokalizację", ["Galeria Krakowska (Pawia 5, 31-154 Kraków)", "Park Handlowy Zakopianka (ul. Zakopiańska 62, 30-418 Kraków)"]); ?>
-<?php include 'form-select-component.php'; ?>
-<?php generateFormComponent("Imię"); ?>
-<?php generateFormComponent("Nazwisko"); ?>
-<?php generateFormComponent("Wiek"); ?>
-<?php generateFormComponent("E-mail"); ?>
-<?php generateFormComponent("Nazwisko"); ?>
-<?php generateFormComponent("Wiadomość"); ?>
+<?php generateFormSelectedComponent("eyetest_localization","Wybierz lokalizację",$eyetest_localization ); ?>
+<?php include '../Component/form-component.php'; ?>
+    <?php include '../Component/calendar.php'; ?>
+    <?php generateFormCalendar("calendar","Data"); ?>
+<?php generateFormComponent("name","Imię"); ?>
+<?php generateFormComponent("surname","Nazwisko"); ?>
+<?php generateFormComponent("age","Wiek"); ?>
+<?php generateFormComponent("mail","E-mail"); ?>
+<?php generateFormComponent("number","Numer telefonu"); ?>
+<?php generateFormComponent("message","Wiadomość"); ?>
 
-<?php include 'consent.php'; ?>
+<?php include '../Component/consent.php'; ?>
 
 <?php generateConsentCheckbox("Przesyłając ten formularz wyrażam zgodę na przetwarzanie moich danych osobowych przez Optimistic Optyk Sp. z o.o."); ?>
 
-<?php generateButton("Prześlij", ""); ?>
+    <?php include '../Component/button.php'; ?>
 
+<?php generateButton("Prześlij", "", true); ?>
+</form>
 
 </body>
 </html>

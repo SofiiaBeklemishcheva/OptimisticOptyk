@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Najczęściej zadawane pytania</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <script src="../JS/Component/question-and-answer.js"></script>
 </head>
 <body>
-<?php include ("./Layout/header.php");?>
-
-<!-- Co oznacza gwarancja recepty -->
-    <?php
-$questionText = "Co oznacza gwarancja recepty?";
-$answerText = "  W przypadku, gdy okulary zostały zrobione na podstawie recepty od naszego specjalisty, istnieje możliwość weryfikacji dobranych mocy szkieł w ciągu 2 tygodni od momentu odbioru okularów. 
+<?php include ("../Layout/header.php");?>
+<?php include("../Component/question-and-answer-element.php"); ?>
+<?php generateQuestionComponent("Co oznacza gwarancja recepty?","  W przypadku, gdy okulary zostały zrobione na podstawie recepty od naszego specjalisty, istnieje możliwość weryfikacji dobranych mocy szkieł w ciągu 2 tygodni od momentu odbioru okularów. 
 
 Jeżeli po weryfikacji zostanie dobrana inna korekta, wymienimy szkła na nowe. 
 
-Najczęściej potrzeba weryfikacji dobranej korekty występuję w sytuacji, gdy wykryto nie skorygowany dotychczas astygmatyzm lub została zwiększona jego wartość w porównaniu do wcześniejszych okularach.";
-include('question-and-answer-element.php');
-    ?>
+Najczęściej potrzeba weryfikacji dobranej korekty występuję w sytuacji, gdy wykryto nie skorygowany dotychczas astygmatyzm lub została zwiększona jego wartość w porównaniu do wcześniejszych okularach."); ?>
+
+
 
 <!-- Czy koniecznie trzeba mieć receptę, żeby zamówić okulary? -->
 <?php
@@ -26,8 +25,7 @@ $answerText = "  Nie.
 Możemy podjąć próbę odczytania mocy soczewek z poprzednich okularów i na ich podstawie wykonać nowe. Również jest możliwość zrobienia okularów o dowolnej mocy na życzenie.
 
 Uwaga! Nie możemy gwarantować pełnego komfortu w nowych okularach w takiej sytuacji. Sugerujemy zbadać się u naszego specjalisty w celu weryfikacji aktualności korekty wady wzroku.";
-include('question-and-answer-element.php');
-    ?>
+?>
 
 <!-- Ile się czeka na okulary? -->
 <?php
@@ -41,8 +39,7 @@ Ze szkłami jednoogniskowymi indywidualnymi - od 10 do 12 dni roboczych.
 Z dwuogniskowymi - do 14 dni roboczych. 
 
 Z progresywnymi, biurowymi (półprogresywnymi), relaksacyjnymi - od 10 do 14 dni roboczych. ";
-include('question-and-answer-element.php');
-    ?>
+?>
 
 <!-- Co będzie jeżeli się nie przyzwyczaję do okularów progresywnych? -->
 <?php
@@ -52,8 +49,7 @@ $answerText = "  W tej sytuacji prosimy o niezwłoczny kontakt z optykiem, w kt�
 Istnieje tzw gwarancja adaptacji - jest to okres czasu (od 1 do 6 miesięcy w zależności od producenta) w ciągu którego możemy dokonać pewnych zmian w szkłach lub wymienić progresywne na dwuogniskowe, 2 pary jednoogniskowych lub znaleźć inne rozwiązanie. 
 
 Uwaga! Często dla osiągnięcia komfortu w takich okularach jest potrzebna drobna regulacja oprawy. Sugerujemy przed rezygnacją z noszenia okularów podejść do optyka w celu jej dokonania.";
-include('question-and-answer-element.php');
-    ?>
+?>
 
 <!-- Czy istnieje możliwość zbadania wzroku u dzieci? -->
 <?php
@@ -66,8 +62,7 @@ Warto również poprosić lekarza o sugestię w kwestii doboru szkieł oraz czę
 
 Nie korygowanie wady wzroku może zaszkodzić zdrowiu oczu.
 ";
-include('question-and-answer-element.php');
-    ?>
+?>
 
 <!-- Ile kosztują szkła progresywne? -->
 <?php
@@ -79,8 +74,7 @@ Połączenie kilku mocy w jednej soczewce powoduje wystąpienie stref zamglenia 
 Cena pary szkieł o podstawowych parametrach to 519 zł. przy zakupie kompletnej pary okularów (oprawa + szkła). W celu dobrania odpowiednich szkieł zapraszamy do naszego salonu. 
 
 Jeżeli planują Państwo wizytę u lekarza okulisty warto poprosić specjalistę o sugestię w kwestii doboru odpowiedniej konstrukcji szkła, która pozwoli dostosować okulary do swojego trybu życia (progresywne, biurowe, jednoogniskowe, relaksacyjne i t.d.)";
-include('question-and-answer-element.php');
-    ?>
+?>
 
 <!-- Czy są dostępne okulary do komputera? -->
 <?php
@@ -96,8 +90,7 @@ Ważne! Soczewki z filtrem są delikatnie zabarwione i mogą zmieniać kolory.
 Jeżeli doświadczają Państwo dyskomfort przy pracy z blizka, męczenie się, poczucie piasku w oczach lub bul warto się zastanowić nad zbadaniem wzroku. Ze względu na specyfikę pracy współczesnego człowieka mięśnie oka mogą być zbyt mocno napięte co może spowodować tzw spazm akomodacuyjny. W tej sytuacji często są polecane szkła z dodatkiem +0,25/+0,50 dptr. Przed podjeciem decyzji o zakupie takich okularów trzeba koniecznie się zkonsultować ze specjalistą.
 
 Jeżeli na co dzień są  stosowane okulary progresywne ze względu na konstrukcję mogą być mniej efektywny przy ciągłej pracy przy monitorze stacjonarnym. W tym przypadku warto się zastanowić nad zakupem okularów biurowych (półprogresywnych).";
-include('question-and-answer-element.php');
-    ?>
+?>
 
 
 <!-- Jakie okulary wybrać do samochodu? -->
@@ -110,8 +103,7 @@ Ważne! Dyskomfort w trakcie jazdy autem zwłaszcza wieczorem może być spowodo
 Ze względu na powłokę można zastosować szkła ze standardowym antyrefleksem lub bardziej zaawansowanym, przeznaczonym do jazdy autem (jednak nie jest to konieczność). Warto również się zastanowić nad oprawką z nakładką przeciwsłoneczną. 
 
 Niektóre oprawki tego typu mają kilka nakładek w zestawie: ciemne z powłoką polaryzacyjną i zółte do jazdy autem w nocy lub zmroku.  ";
-include('question-and-answer-element.php');
-    ?>
+?>
 
 <!-- Jak się przygotować do badania wzroku? -->
 <?php
@@ -121,8 +113,7 @@ $answerText = "Wziąć poprzednie okulary i receptę
 Wziąć wszystkie koperty od szkieł i certyfikaty (do soczewek indywidualnych: progresywne, biurowe, relaksacyjne, dwuogniskowe, jednoogniskowe)
 
 Jeżeli na co dzień są stosowane soczewki kontaktowe warto w tym dniu założyć okulary korekcyjne, jeżeli takiej możliwości nie ma, prosimy wziąć ze sobą pudełko z płynem i przyjść 20 minut wcześniej w celu ściągnięcia soczewek przed badaniem";
-include('question-and-answer-element.php');
-    ?>
+?>
 
 <!-- Czy można naprawić okulary? -->
 <?php
@@ -134,8 +125,7 @@ Nie ma możliwości polerowania rys na szkłach. Nie naprawiamy oprawek typu pat
 Regulacja okularów zakupionych nie w naszym salonie optycznym jest wykonywana na odpowiedzialność klienta.
 
 ";
-include('question-and-answer-element.php');
-    ?>
+?>
 
 <!-- Czym jest antyrefleks? -->
 <?php
@@ -144,8 +134,7 @@ $answerText = "  Jest to powłoka na soczewkach okularowych, która robi je bard
 
 Istnieje wiele rodzajów takiech powłok: standardowe, śliskie (bardziej odporne na zarysowania), do jazdy autem (jeszcze bardziej podbijające kontrast widzenia), mniej widoczne na soczewce, nie widoczne na zgjęciach i przy pracy z kamerą.
 ";
-include('question-and-answer-element.php');
-    ?>
+?>
 
 <!-- Czy można wymienić szkłą w swoich okularach? -->
 <?php
@@ -155,8 +144,7 @@ $answerText = "  Wymiana szkieł do własnej oprawy jest możliwa. Prosimy o pok
 Równeż informujemy, że montaż do prawy własnej odbywa się na odpowiedzialność klienta. 
 
 Nie możemy zrobić szkieł do oprawki typu patent zakupionej nie w naszym salonie.";
-include('question-and-answer-element.php');
-    ?>
+?>
 
 
 

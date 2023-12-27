@@ -1,0 +1,33 @@
+.footer {
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer-container {
+  height: 64px;
+  background: #346112;
+}
+
+.footer-annotation-text-1 {
+  width: 181px;
+  right: 15px;
+  top: 5px;
+  color: #FBF6F0;
+  font-size: 12px;
+  font-family: Nunito Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.footer-annotation-text-2 {
+  width: 1280px;
+  height: 26px;
+  text-align: center;
+  color: #FBF6F0;
+  font-size: 12px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+/*# sourceMappingURL=footer.css.map */

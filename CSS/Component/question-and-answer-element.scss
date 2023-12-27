@@ -1,0 +1,21 @@
+.question{
+  background-color: bisque;
+  &-header{
+    background-color: #92D45F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    &-text{
+      background-color: aliceblue;
+    }
+    &-image{
+      width: 30px;
+      height: 30px;
+    }
+  }
+  &-answer{
+    background-color: indianred;
+  }
+}
+

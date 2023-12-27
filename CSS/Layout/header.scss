@@ -10,6 +10,7 @@
   margin: 0px;
 }
   .header-container-left-logo{
+    margin-left: 20px;
     width: 280px;
     height: 70px;
     left: 40px;
@@ -24,6 +25,12 @@
   .header-container-center-menu-button{
     width: 189px;
     height: 64px;
+    background: #FA813D;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
   }
   .header-container-center-menu-button-position{
     width: 189px;
