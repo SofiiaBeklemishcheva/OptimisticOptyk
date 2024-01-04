@@ -1,0 +1,29 @@
+.form-component-item-container{
+  display: flex;
+  width: 535px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.form-component-item-input-element{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.37);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 20px;
+  border: 1px solid #346112;
+  background: #FBF6F0;
+  width: 535px;
+  height: 40px;
+  align-items: center;
+  margin: 20px;
+  flex-wrap: wrap;
+}

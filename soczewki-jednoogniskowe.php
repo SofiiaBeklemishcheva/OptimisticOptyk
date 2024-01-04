@@ -5,7 +5,7 @@
     <title>Soczewki jednoogniskowe</title>
 </head>
 <body>
-<?php include ("./Layout/header.php");?>
+<?php include("./Layout/header.php");?>
 
 <p class = "lenses-general-description">Mają 1 docelową moc i są najpopularniejszym rozwiązaniem dla osób, które potrzebują korekty wady wzroku.</p>
 <h2 class = "lenses-feature-title">Materiały soczewek okularowych</h2>

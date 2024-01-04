@@ -1,0 +1,86 @@
+.eyetest-general-description-container{
+  display: flex;
+  justify-content: center;
+}
+
+  .eyetest-general-description-background{
+    width: 710px;
+    height: 145px;
+    border-radius: 20px;
+    border: 1px solid #346112;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+    .eyetest-general-description-text{
+      margin:10px;
+      overflow: hidden;
+      color: #000;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .statement-list-position{
+      margin: 15px;
+    }
+
+    .eyetest-general-description-image{
+      margin: 10px;
+      width: 110px;
+      height: 100px;
+    }
+
+
+.eyetest-proces-decription-title{
+display: flex;
+justify-content: center;
+}
+
+.eyetest-proces-decription-container{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.eyetest-cost-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.eyetest-limitations-description-container{
+  display: flex;
+  justify-content: center;
+}
+.eyetest-limitations-description-background{
+  width: 710px;
+  height: 145px;
+  border-radius: 20px;
+  border: 1px solid #346112;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.eyetest-limitations-description-text{
+  margin: 10px;
+  width: 491px;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.eyetest-limitations-description-image{
+  width: 110px;
+  height: 100px;
+}

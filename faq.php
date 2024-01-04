@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Najczęściej zadawane pytania</title>
-    <link rel="stylesheet" href="../CSS/index.css">
-    <script src="../JS/Component/question-and-answer.js"></script>
+    <link rel="stylesheet" href="CSS/index.css">
+    <script src="JS/Component/question-and-answer.js"></script>
 </head>
 <body>
-<?php include ("../Layout/header.php");?>
+<?php include("../Layout/header.php");?>
 <?php include("../Component/question-and-answer-element.php"); ?>
 <?php generateQuestionComponent("Co oznacza gwarancja recepty?","  W przypadku, gdy okulary zostały zrobione na podstawie recepty od naszego specjalisty, istnieje możliwość weryfikacji dobranych mocy szkieł w ciągu 2 tygodni od momentu odbioru okularów. 
 

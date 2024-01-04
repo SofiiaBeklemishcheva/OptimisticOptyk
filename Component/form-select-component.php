@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../CSS/index.css">
 <?php
 function generateFormSelectedComponent($form_title,$title, $options) {
     ?>

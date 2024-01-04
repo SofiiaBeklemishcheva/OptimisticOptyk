@@ -1,0 +1,34 @@
+.eyetest-cost-container{
+  display: flex;
+  margin: 10px;
+
+}
+.eyetest-cost-background{
+  display: flex;
+  margin: 10px;
+  width: 433px;
+  height: 28px;
+  border-radius: 20px;
+  background: #346112;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+}
+.eyetest-cost-position-price{
+  margin: 20px;
+  color: #FBF6F0;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.eyetest-cost-position-description-text{
+  margin: 20px;
+  color: #FBF6F0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

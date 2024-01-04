@@ -4,13 +4,50 @@
 @import "resolutions";
 @import "carouseldescription";
 @import "carousel";
-@import "badanie-wzroku";
+@import "eyetest-description";
 @import "soczewki-wieloogniskowe";
 @import "kontakt";
-@import "./Component/question-and-answer-element";
+
 // Layout
 @import "Layout/header";
 @import "Layout/footer";
+
+//Component
+@import "./Component/question-and-answer-element";
+@import "./Component/special-offer-image";
+@import "./Component/available-services";
+@import "./Component/navigate-button";
+@import "./Component/eyetest-proces-step-description";
+@import "./Component/eyetest-cost-description";
+@import "./Component/form-component";
+@import "./Component/form-select";
+@import "./Component/multifocal-lenses-description";
+@import "./Component/contact-information-container";
+
+
+.special-offer-images-container{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.services-container{
+  display: flex;
+  justify-content: center;
+}
+
+.navigate-buttons-title{
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.navigate-buttons-container{
+  display: flex;
+  justify-content: center;
+}
+
 
 
 

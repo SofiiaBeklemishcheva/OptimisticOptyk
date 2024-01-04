@@ -1,10 +1,11 @@
+<link rel="stylesheet" href="../CSS/index.css" xmlns="http://www.w3.org/1999/html">
 <?php
-function generateFormComponent($form_title,$title) {
+function generateFormComponent($form_title,$title,$form_placeholder) {
     ?>
     <div class="form-component-item-container">
-        <div class="form-component-item-background"></div>
-        <label for = "<?= $form_title; ?>" class="form-component-item-title"><?= $title; ?></label>
-        <input type="text" id="<?= $form_title; ?>" name="<?= $form_title; ?>"/>
+            <input class = "form-component-item-input-element" type="text" id="<?= $form_title; ?>"
+                   name="<?= $form_title; ?>"
+                   placeholder="<?= $form_placeholder; ?>"></input>
     </div>
 <?php }   ?>
 
