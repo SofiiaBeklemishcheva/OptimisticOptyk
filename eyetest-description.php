@@ -52,6 +52,8 @@
     </div>
 </div>
 
-<?php generateButton("Umów wizytę", "reservating-eyetest-termin.php"); ?>
+<?php include("./Component/submit-button.php");?>
+<?php generateButton("Umów wizytę", "http://localhost/reservating-eyetest-termin.php"); ?>
+<?php include("./Layout/footer.php");?>
 </body>
 </html>

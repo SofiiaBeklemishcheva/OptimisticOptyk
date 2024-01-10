@@ -1,28 +1,60 @@
 .information-about-shop-container{
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
 }
-
-.video-road-to-shop-container{
-
+.information-about-shop-container-background{
+  width: 410px;
+  height: 800px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #346112;
+  background: #FBF6F0;
+  justify-content: space-evenly;
 }
 
 .video-road-to-shop{
-
+  width: 309px;
+  height: 355px;
+  border-radius: 20px;
+  border: 1px solid #346112;
+  background: #FBF6F0;
 }
 
 .mall-title{
-
+  margin: 10px;
+  width: 410px;
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.contact-information-container{
+  display: flex;
+  align-items: center;
+}
+.image{
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+  display: flex;
 }
 
-.google-maps-link{
-
-}
-
-.map-image{
-
-}
-
-.kontakt-information-text-adres{
-
+.kontakt-information-text{
+  margin: 10px;
+  width: 260px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 

@@ -6,7 +6,11 @@
 @import "carousel";
 @import "eyetest-description";
 @import "soczewki-wieloogniskowe";
-@import "kontakt";
+@import "contakt-information";
+@import "single-vision-lenses";
+@import "reservating-eyetest-termin";
+@import "faq";
+
 
 // Layout
 @import "Layout/header";
@@ -16,13 +20,17 @@
 @import "./Component/question-and-answer-element";
 @import "./Component/special-offer-image";
 @import "./Component/available-services";
-@import "./Component/navigate-button";
 @import "./Component/eyetest-proces-step-description";
+@import "./Component/navigate-button";
 @import "./Component/eyetest-cost-description";
 @import "./Component/form-component";
 @import "./Component/form-select";
 @import "./Component/multifocal-lenses-description";
 @import "./Component/contact-information-container";
+@import "./Component/submit-button";
+@import "./Component/single-vision-lenses-features-description";
+@import "./Component/consent";
+@import "./Component/lens-thikness-carousel-element";
 
 
 .special-offer-images-container{

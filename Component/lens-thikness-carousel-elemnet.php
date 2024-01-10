@@ -1,43 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<div class = "carousel-element-container">
-    <div class = "carousel-element-container-background"></div>
-    <img class = "carousel-element-navigation-arrow-left" src="https://via.placeholder.com/50x50" />
-    <img class = "carousel-element-navigation-arrow-right" src="https://via.placeholder.com/50x50" />
-    <img class = "carousel-element-image" src="<?php echo $carouselElementImage; ?>" />
-    
-    <div class = "carousel-element-indicator">
-        <div class = "indicator-lement"></div>
-        <div class = "indicator-lement"></div>
-        <div class = "indicator-lement"></div>
-        <div class = "indicator-lement"></div>
-    </div>
-</div>
+<link rel="stylesheet" href="../CSS/index.css"
+<script src="../JS/Component/lens-thikness-carousel-element.js"></script>
+<?php
+function generateCarouzel($carouselElementImage1, $carouselElementImage2, $carouselElementImage3, $carouselElementImage4) {
+    ?>
+        <div class = "carousel-element-container-background">
 
-<script>
-    $(document).ready(function(){
-        $('.carousel-element-image').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            fade: true,
-            asNavFor: '.carousel-element-indicator'
-        });
-        $('.carousel-element-indicator').slick({
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            asNavFor: '.carousel-element-image',
-            dots: false,
-            centerMode: true,
-            focusOnSelect: true
-        });
-    });
-</script>
+            <div class = "left-arrow-container">
+                <span class = "left-arrow">&#8249;</span>
+            </div>
 
-</body>
-</html>
+            <img class = "carousel-slide" src="<?php echo $carouselElementImage1; ?>" alt = "1"/>
+            <div class = "arrow-right">
+                <span class = "right-arrow">&#8250;</span>
+            </div>
+            <img class = "carousel-slide" src="<?php echo $carouselElementImage2; ?>" alt = "2" />
+            <img class = "carousel-slide" src="<?php echo $carouselElementImage3; ?>" alt = "3"/>
+            <img class = "carousel-slide" src="<?php echo $carouselElementImage4; ?>" alt = "4"/>
+
+        </div>
+
+
+<?php }   ?>
+
+
+

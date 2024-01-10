@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Optimistic Optyk Soczewki Wieloogniskowe</title>
 </head>
@@ -17,10 +18,7 @@
     $title = "Dwuogniskowe (bifokalne)";
 
 $descriptions = [
-    "Te soczewki okularowe mają 2 docelowe moce. W dolnej części znajduje się widoczny segment z mocą do czytania.",
-    "Jest to najprostsze rozwiązanie dla osób, które potrzebują różnych mocy do patrzenia w dal i z bliska, ale jednak chcieliby mieć jedne okulary.",
-    "Czas adaptacji do takich soczewek jest krótki ze względu na prostą konstrukcję. Warto skorzystać ze wskazówek jakie przy odbiorze okularów sugeruje doradca.",
-    "Jednak są mniej popularnym rozwiązaniem ze względu na widoczny segment. Przez to jest dostępna ograniczona ilość uszlachetnień."
+    "Te soczewki okularowe mają 2 docelowe moce. W dolnej części znajduje się widoczny segment z mocą do czytania. Jest to najprostsze rozwiązanie dla osób, które potrzebują różnych mocy do patrzenia w dal i z bliska, ale jednak chcieliby mieć jedne okulary. Czas adaptacji do takich soczewek jest krótki ze względu na prostą konstrukcję. Warto skorzystać ze wskazówek jakie przy odbiorze okularów sugeruje doradca. Jednak są mniej popularnym rozwiązaniem ze względu na widoczny segment. Przez to jest dostępna ograniczona ilość uszlachetnień."
 ];
 
     $images = ["Universal/Dwuogniskowa_page-0001.jpg"];

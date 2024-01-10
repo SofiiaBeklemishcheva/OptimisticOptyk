@@ -1,0 +1,34 @@
+.lenses-general-description{
+  margin: 10px;
+  padding: 10px;
+  text-indent: 50px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.lenses-feature-title{
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.lenses-feature-description-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.lenses-manufacturer-list-container{
+  margin: 10px;
+}
+.lenses-manufacturer-list-item{
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}

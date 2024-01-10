@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../CSS/index.css">
 <?php
 function generateQuestionComponent($questionText, $answerText)
 {
@@ -11,8 +12,5 @@ function generateQuestionComponent($questionText, $answerText)
         <p class="question-answer"> <?php echo $answerText; ?> </p>
     </div>
 
-    <script>
-const controller = new QuestionAndAnswer ();
-console.log(controller.root)
-    </script>
+
 <?php } ?>

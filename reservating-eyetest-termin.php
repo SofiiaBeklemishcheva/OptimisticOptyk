@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+    <link rel="stylesheet" href="CSS/index.css">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Zapisz się na badanie wzroku</title>
 </head>
 <body>
 <?php include("./Layout/header.php");?>
-    <h>Zapisz się na badanie wzroku</h>
-<form action="/action_page.php" method="post" class = "eyetest-reservation-form" id = "eyetest-reservation-form">
+    <h class = "form-title">Zapisz się na badanie wzroku</h>
+<form action="./API/contact-form.php" method="post" class = "form-container" id = "eyetest-reservation-form">
     <?php $eyetest_kind = array (
     array("lenses","Dobór soczewek kontaktowych"),
     array("glasses","Dobór okularów korekcyjnych")
@@ -34,7 +35,7 @@
 
 <?php include './Component/consent.php'; ?>
 
-<?php generateConsentCheckbox("Przesyłając ten formularz wyrażam zgodę na przetwarzanie moich danych osobowych przez Optimistic Optyk Sp. z o.o."); ?>
+<?php generateConsentCheckbox("rules","Przesyłając ten formularz wyrażam zgodę na przetwarzanie moich danych osobowych przez Optimistic Optyk Sp. z o.o."); ?>
 
     <?php include './Component/submit-button.php'; ?>
 

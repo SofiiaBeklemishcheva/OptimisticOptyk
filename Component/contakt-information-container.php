@@ -7,7 +7,8 @@ function renderShopInformationComponent($videoSource, $mallTitle, $googleMapsLin
                                         $phoneText)
 {
     echo '<div class="information-about-shop-container">';
-    echo '<div class="video-road-to-shop-container">';
+
+    echo '<div class="information-about-shop-container-background">';
 
     echo '<video class="video-road-to-shop" controls>';
     echo '<source src="' . $videoSource . '" type="video/mp4">';
@@ -18,31 +19,33 @@ function renderShopInformationComponent($videoSource, $mallTitle, $googleMapsLin
     echo '<div class="mall-title">' . $mallTitle . '</div>';
 
     // Directing to Google maps
-    echo '<a class="google-maps-link" href="' . $googleMapsLink . '">';
-    echo '<img class="map-image" src="../Universal/google-maps.png" />';
+    echo '<a class="contact-information-container" href="' . $googleMapsLink . '">';
+    echo '<img class="image" src="../Universal/google-maps.png" />';
+    echo '<p class="kontakt-information-text">' . $adresText . '</p>';
     echo '</a>';
-    echo '<p class="kontakt-information-text-adres">' . $adresText . '</p>';
 
     // Directing to Instagram profile
-    echo '<a class="instagram-link" href="' . $instagramLink . '">';
-    echo '<img class="instagram-image" src="../Universal/instagram%20(1).png" />';
+    echo '<a class="contact-information-container" href="' . $instagramLink . '">';
+    echo '<img class="image" src="../Universal/instagram%20(1).png" />';
+    echo '<p class="kontakt-information-text">' . $instagramText . '</p>';
     echo '</a>';
-    echo '<p class="kontakt-information-text-instagram">' . $instagramText . '</p>';
 
     // Directing to Facebook profile
-    echo '<a class="facebook-link" href="' . $facebookLink . '">';
-    echo '<img class="facebook-image" src="../Universal/facebook%20(1).png" />';
+    echo '<a class="contact-information-container" href="' . $facebookLink . '">';
+    echo '<img class="image" src="../Universal/facebook%20(1).png" />';
+    echo '<p class="kontakt-information-text">' . $facebookText . '</p>';
     echo '</a>';
-    echo '<p class="kontakt-information-text-facebook">' . $facebookText . '</p>';
 
     // Directing to e-mail message
-    echo '<a class="e-mail-link" href="mailto:' . $eMailLink . '">';
-    echo '<img class="e-mail-image" src="../Universal/gmail.png" />';
+    echo '<a class="contact-information-container" href="mailto:' . $eMailLink . '">';
+    echo '<img class="image" src="../Universal/gmail.png" />';
+    echo '<p class="kontakt-information-text">' . $eMailText . '</p>';
     echo '</a>';
-    echo '<p class="kontakt-information-text-e-mail">' . $eMailText . '</p>';
 
-    echo '<img class="phone-image" src="../Universal/phone.png" />';
-    echo '<p class="kontakt-information-text-phone">' . $phoneText . '</p>';
+    echo '<div class = "contact-information-container">';
+    echo '<img class="image" src="../Universal/phone.png" />';
+    echo '<p class="kontakt-information-text">' . $phoneText . '</p>';
+    echo '</div>';
 
     echo '</div>';
     echo '</div>';

@@ -1,13 +1,26 @@
 .question{
-  background-color: bisque;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+  width: 1165px;
+  background: #FBF6F0;
   &-header{
-    background-color: #92D45F;
+    width: 1165px;
+    height: 51px;
+    border-radius: 20px;
+    border: 1px solid #346112;
+    background: #FBF6F0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
     &-text{
-      background-color: aliceblue;
+      color: #000;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
     }
     &-image{
       width: 30px;
@@ -15,7 +28,18 @@
     }
   }
   &-answer{
-    background-color: indianred;
+    height: 0;
+    transition-duration:1s;
+    opacity: 0;
+    overflow: hidden;
+    text-indent: 50px;
+    display: flex;
+    margin: 10px;
+    line-height: 1.5;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
   }
 }
 
