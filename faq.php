@@ -123,8 +123,7 @@ Nie możemy zrobić szkieł do oprawki typu patent zakupionej nie w naszym salon
 </div>
 
 <script>
-    const controller = new QuestionAndAnswer ();
-    console.log(controller.root)
+   new QuestionAndAnswer ();
 </script>
 
 </body>

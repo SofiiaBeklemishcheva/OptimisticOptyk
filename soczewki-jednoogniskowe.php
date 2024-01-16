@@ -52,8 +52,10 @@ include './Component/single-vision-lenses-features-description.php';
 
 <h2 class = "lenses-feature-title">Porównanie stopni redukcji grubości</h2>
 <?php include './Component/lens-thikness-carousel-elemnet.php'; ?>
+<div class = carousel-line>
 <?php generateCarouzel('../Universal/+4,00 1,5 Sferyczna_page-0001.jpg', '../Universal/+4,00 1,6 Sferyczna_pages-to-jpg-0001.jpg','../Universal/+4,00 1,67 Sferyczna_page-0001.jpg','../Universal/+4,00 1,74 Sferyczna_page-0001.jpg'); ?>
-
+<?php generateCarouzel('../Universal/+4,00 1,5 Sferyczna_page-0001.jpg', '../Universal/+4,00 1,6 Sferyczna_pages-to-jpg-0001.jpg','../Universal/+4,00 1,67 Sferyczna_page-0001.jpg','../Universal/+4,00 1,74 Sferyczna_page-0001.jpg'); ?>
+</div>
 
 
 
@@ -109,5 +111,8 @@ include './Component/single-vision-lenses-features-description.php';
 </p>
 
 <?php include("./Layout/footer.php");?>
+<script>
+    new Slider();
+</script>
 </body>
 </html>

@@ -28,7 +28,7 @@
     }
   }
   &-answer{
-    height: 0;
+    max-height: 0;
     transition-duration:1s;
     opacity: 0;
     overflow: hidden;

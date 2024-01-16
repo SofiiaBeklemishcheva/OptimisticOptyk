@@ -1,8 +1,9 @@
 class QuestionAndAnswer {
 
     constructor() {
-        const listOfQuestions = document.getElementsByClassName(".question");
-       listOfQuestions.forEach((question) => {
+        const listOfQuestions = document.getElementsByClassName("question");
+        console.log(listOfQuestions)
+       Array.from(listOfQuestions).forEach((question) => {
            new QuestionAndAnswerElement(question);
        })
 
@@ -20,11 +21,11 @@ class QuestionAndAnswerElement {
         questionHeader.addEventListener("click", function () {
             if (ths.state === ths.CLOSED) {
                 ths.state = ths.OPENED;
-                questionAnswer.style.height = "200px";
+                questionAnswer.style.maxHeight = "200px";
                 questionAnswer.style.opacity = "1";
             } else if (ths.state === ths.OPENED) {
                 ths.state = ths.CLOSED;
-                questionAnswer.style.height = "0";
+                questionAnswer.style.maxHeight = "0";
                 questionAnswer.style.opacity = "0";
             }
 

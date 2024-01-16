@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./JS/Component/form-controller.js"></script>
     <link rel="stylesheet" href="CSS/index.css">
     <meta charset="UTF-8">
     <title>Zapisz się na badanie wzroku</title>
@@ -39,7 +40,7 @@
 
     <?php include './Component/submit-button.php'; ?>
 
-<?php generateButton("Prześlij", "", true); ?>
+<?php generateButton("Prześlij", "", true, "reservation-form-submit"); ?>
 </form>
 
 </body>

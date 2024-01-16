@@ -10,10 +10,14 @@
 
     <?php include ("./Component/header-button.php"); ?>
     <nav class="header-container-center-menu">
-        <?php generateMenuButton('Badanie', 'http://localhost/eyetest-description.php'); ?>
-        <?php generateMenuButton('Produkty', 'http://localhost/Pages/eyetest-description.php'); ?>
-        <?php generateMenuButton('Kontakt', 'http://localhost/contakt-information.php'); ?>
-        <?php generateMenuButton('Informacje', 'http://localhost/faq.php'); ?>
+        <?php generateMenuButton('Badanie', 'http://localhost/eyetest-description.php',[]); ?>
+        <?php generateMenuButton('Produkty', 'http://localhost/Pages/eyetest-description.php',[
+            (object)["text" => "Soczewki jednoogniskowe", "url" => "http://localhost/soczewki-jednoogniskowe.php"],
+             (object)["text" => "Soczewki wieloogniskowe", "url" => "http://localhost/soczewki-wieloogniskowe.php"]
+
+        ]); ?>
+        <?php generateMenuButton('Kontakt', 'http://localhost/contakt-information.php',[]); ?>
+        <?php generateMenuButton('Informacje', 'http://localhost/faq.php',[]); ?>
 
     </nav>
 
