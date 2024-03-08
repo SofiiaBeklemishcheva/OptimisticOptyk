@@ -3,9 +3,9 @@ class QuestionAndAnswer {
     constructor() {
         const listOfQuestions = document.getElementsByClassName("question");
         console.log(listOfQuestions)
-       Array.from(listOfQuestions).forEach((question) => {
-           new QuestionAndAnswerElement(question);
-       })
+        Array.from(listOfQuestions).forEach((question) => {
+            new QuestionAndAnswerElement(question);
+        })
 
     }
 }

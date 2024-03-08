@@ -14,6 +14,7 @@ class SliderElement {
         const slider = carouselElement.querySelector('.images-inner-container');
         const arrowLeft = carouselElement.querySelector('.left-arrow');
         const arrowRight = carouselElement.querySelector('.right-arrow');
+        arrowRight.style.opacity = "0";
 
         let positionPX = 0;
         let position = 0;
@@ -25,6 +26,12 @@ class SliderElement {
                 slider.style.left = positionPX + "px";
                 position++;
             }
+            if(position === 3){
+                arrowLeft.style.opacity = "0";
+            }
+            if(position > 0){
+                arrowRight.style.opacity = "1";
+            }
         });
 
         arrowRight.addEventListener('click', () => {
@@ -34,15 +41,14 @@ class SliderElement {
                 slider.style.left = positionPX + "px";
                 position--;
             }
+            if(position === 0){
+                arrowRight.style.opacity = "0";
+            }
+            if(position <3){
+                arrowLeft.style.opacity = "1";
+            }
+
         });
     }
 
 }
-
-
-
-
-
-
-
-

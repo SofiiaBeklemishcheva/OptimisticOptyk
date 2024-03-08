@@ -1,13 +1,13 @@
 <?php
-echo $_POST["eyetest_kind"];
-echo $_POST["eyetest_localization"];
-echo $_POST["name"];
-echo $_POST["surname"];
-echo $_POST["age"];
-echo $_POST["mail"];
-echo $_POST["number"];
-echo $_POST["message"];
-echo $_POST["rules"];
+//echo $_POST["eyetest_kind"];
+//echo $_POST["eyetest_localization"];
+//echo $_POST["name"];
+//echo $_POST["surname"];
+//echo $_POST["age"];
+//echo $_POST["mail"];
+//echo $_POST["number"];
+//echo $_POST["message"];
+//echo $_POST["rules"];
 
 
 $servername = "localhost";
@@ -26,8 +26,8 @@ try {
     $hour = "14:00:00";
     $rules = "0";
     if (array_key_exists("rules", $_POST) && ($_POST["rules"] == "on")) {
-        $rules = "1";
-        echo "1";
+       $rules = "1";
+//        echo "1";
     }
 
     $stmt = $conn->prepare("INSERT INTO `badanie`(`KindOfTest`, `Place`, `Date`, `Hour`, `Name`, `Surname`, `Age`,`E-mail`,`Phone`,`Message`,`Rules`) VALUES (
@@ -56,5 +56,8 @@ try {
     $stmt->execute();
 
 } catch (PDOException $e) {
-    echo "Connection failed: " . $e->getMessage();
+//    echo "Connection failed: " . $e->getMessage();
 }
+
+
+echo "OK";

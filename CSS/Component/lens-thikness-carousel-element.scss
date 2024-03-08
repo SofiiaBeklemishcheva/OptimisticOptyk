@@ -8,7 +8,7 @@
 .images-container{
   height: 500px;
   width: 442px;
- overflow: hidden;
+  overflow: hidden;
   position: relative;
 }
 .images-inner-container{
@@ -51,7 +51,7 @@
 
 }
 .carousel-slide-fade{
-animation: imgFade 0.5s ease-in-out;
+  animation: imgFade 0.5s ease-in-out;
 }
 //@keyframes imgFade {
 //  0% {opacity: 0;}

@@ -239,6 +239,10 @@ a {
 }
 
 .information-container {
+  display: flex;
+}
+
+.information-container {
   justify-content: center;
   display: flex;
 }
@@ -284,6 +288,9 @@ a {
 
 .carousel-line {
   display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-around;
 }
 
 .form-title {

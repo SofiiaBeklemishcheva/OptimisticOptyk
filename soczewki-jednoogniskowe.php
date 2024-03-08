@@ -3,12 +3,13 @@
 <head>
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
     <script src="./JS/Component/lens-thikness-carousel-element.js"></script>
-    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="./CSS/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Soczewki jednoogniskowe</title>
 </head>
 <body>
+
 <?php include("./Layout/header.php");?>
 
 <p class = "lenses-general-description">Mają 1 docelową moc i są najpopularniejszym rozwiązaniem dla osób, które potrzebują korekty wady wzroku.</p>
@@ -49,15 +50,27 @@ $description = "  Ten materiał jest miękki i podąża za wibracjami soczewki p
 include './Component/single-vision-lenses-features-description.php';
 ?>
 </div>
-
 <h2 class = "lenses-feature-title">Porównanie stopni redukcji grubości</h2>
+<p class = "lenses-general-description">
+    Poniższe schematy służą jedynie do celów poglądowych.
+</p>
 <?php include './Component/lens-thikness-carousel-elemnet.php'; ?>
-<div class = carousel-line>
+<div class = "carousel-line">
 <?php generateCarouzel('../Universal/+4,00 1,5 Sferyczna_page-0001.jpg', '../Universal/+4,00 1,6 Sferyczna_pages-to-jpg-0001.jpg','../Universal/+4,00 1,67 Sferyczna_page-0001.jpg','../Universal/+4,00 1,74 Sferyczna_page-0001.jpg'); ?>
 <?php generateCarouzel('../Universal/+4,00 1,5 Sferyczna_page-0001.jpg', '../Universal/+4,00 1,6 Sferyczna_pages-to-jpg-0001.jpg','../Universal/+4,00 1,67 Sferyczna_page-0001.jpg','../Universal/+4,00 1,74 Sferyczna_page-0001.jpg'); ?>
 </div>
-
-
+<div class = "carousel-line">
+<?php generateCarouzel('../Universal/+6,00 1,5 Sferyczna_page-0001.jpg', '../Universal/+6,00 1,6 Sferyczna_page-0001.jpg','../Universal/+6,00 1,67 Sferyczna_page-0001.jpg','../Universal/+6,00 1,74 Sferyczna_page-0001.jpg'); ?>
+<?php generateCarouzel('../Universal/+6,00 1,5 Sferyczna_page-0001.jpg', '../Universal/+6,00 1,6 Sferyczna_page-0001.jpg','../Universal/+6,00 1,67 Sferyczna_page-0001.jpg','../Universal/+6,00 1,74 Sferyczna_page-0001.jpg'); ?>
+</div>
+<div class = "carousel-line">
+<?php generateCarouzel('../Universal/_4,00 1,5 Sferyczna_page-0001.jpg', '../Universal/_4,00 1,6 Sferyczna_page-0001.jpg','../Universal/_4,00 1,67 Sferyczna_page-0001.jpg','../Universal/_4,00 1,74 Sferyczna_page-0001.jpg'); ?>
+<?php generateCarouzel('../Universal/_4,00 1,5 Sferyczna_page-0001.jpg', '../Universal/_4,00 1,6 Sferyczna_page-0001.jpg','../Universal/_4,00 1,67 Sferyczna_page-0001.jpg','../Universal/_4,00 1,74 Sferyczna_page-0001.jpg'); ?>
+</div>
+<div class = "carousel-line">
+<?php generateCarouzel('../Universal/_6,00 1,5 Sferyczna_page-0001.jpg', '../Universal/_6,00 1,6 Sferyczna_page-0001.jpg','../Universal/_6,00 1,67 Sferyczna_page-0001.jpg','../Universal/_6,00 1,74 Sferyczna_page-0001.jpg'); ?>
+<?php generateCarouzel('../Universal/_6,00 1,5 Sferyczna_page-0001.jpg', '../Universal/_6,00 1,6 Sferyczna_page-0001.jpg','../Universal/_6,00 1,67 Sferyczna_page-0001.jpg','../Universal/_6,00 1,74 Sferyczna_page-0001.jpg'); ?>
+</div>
 
 
 <h2 class = "lenses-feature-title">Konstrukcje soczewek jednoogniskowych</h2>
@@ -76,6 +89,28 @@ $description = "Są to szkła bardziej wypłaszczone, co powoduje, że są lżej
 include './Component/single-vision-lenses-features-description.php';
 ?>
 </div>
+<p class = "lenses-general-description">
+    Poniższe schematy służą jedynie do celów poglądowych.
+</p>
+<div class = "carousel-line">
+<?php generateCarouzel('../Universal/+4,00 1,5 Sferyczna_page-0001.jpg', '../Universal/+4,00 1,6 Sferyczna_pages-to-jpg-0001.jpg','../Universal/+4,00 1,67 Sferyczna_page-0001.jpg','../Universal/+4,00 1,74 Sferyczna_page-0001.jpg'); ?>
+<?php generateCarouzel('../Universal/+4,00 1,5 Asferyczna_page-0001.jpg', '../Universal/+4,00 1,6 Asferyczna_pages-to-jpg-0001.jpg','../Universal/+4,00 1,67 Asferyczna_page-0001.jpg','../Universal/+4,00 1,74 Asferyczna_page-0001.jpg'); ?>
+</div>
+<div class = "carousel-line">
+<?php generateCarouzel('../Universal/+6,00 1,5 Sferyczna_page-0001.jpg', '../Universal/+6,00 1,6 Sferyczna_page-0001.jpg','../Universal/+6,00 1,67 Sferyczna_page-0001.jpg','../Universal/+6,00 1,74 Sferyczna_page-0001.jpg'); ?>
+<?php generateCarouzel('../Universal/+6,00 1,5 Asferyczna_page-0001.jpg', '../Universal/+6,00 1,6 Asferyczna_page-0001.jpg','../Universal/+6,00 1,67 Asferyczna_page-0001.jpg','../Universal/+6,00 1,74 Asferyczna_page-0001.jpg'); ?>
+</div>
+<div class = "carousel-line">
+<?php generateCarouzel('../Universal/_4,00 1,5 Sferyczna_page-0001.jpg', '../Universal/_4,00 1,6 Sferyczna_page-0001.jpg','../Universal/_4,00 1,67 Sferyczna_page-0001.jpg','../Universal/_4,00 1,74 Sferyczna_page-0001.jpg'); ?>
+<?php generateCarouzel('../Universal/_4,00 1,5 Asferyczna_page-0001.jpg', '../Universal/_4,00 1,6 Asferyczna_page-0001.jpg','../Universal/_4,00 1,67 Asferyczna_page-0001.jpg','../Universal/_4,00 1,74 Asferyczna_page-0001.jpg'); ?>
+</div>
+<div class = "carousel-line">
+<?php generateCarouzel('../Universal/_6,00 1,5 Sferyczna_page-0001.jpg', '../Universal/_6,00 1,6 Sferyczna_page-0001.jpg','../Universal/_6,00 1,67 Sferyczna_page-0001.jpg','../Universal/_6,00 1,74 Sferyczna_page-0001.jpg'); ?>
+<?php generateCarouzel('../Universal/_6,00 1,5 Asferyczna_page-0001.jpg', '../Universal/_6,00 1,6 Asferyczna_page-0001.jpg','../Universal/_6,00 1,67 Asferyczna_page-0001.jpg','../Universal/_6,00 1,74 Asferyczna_page-0001.jpg'); ?>
+</div>
+
+
+
 
 <h2 class = "lenses-feature-title">Powłoki na szkłach okularowych oraz inne uszlachetnienia</h2>
 <p class = "lenses-general-description">

@@ -2,9 +2,9 @@
 <header class="header">
 
     <div class="header-container-left">
-<a href="http://localhost/index.php">
-        <img class="header-container-left-logo" src="../Universal/Logo.jpg" alt = "Logo"/>
-</a>
+        <a href="http://localhost/index.php">
+            <img class="header-container-left-logo" src="../Universal/Logo.jpg" alt = "Logo"/>
+        </a>
     </div>
 
 
@@ -13,7 +13,7 @@
         <?php generateMenuButton('Badanie', 'http://localhost/eyetest-description.php',[]); ?>
         <?php generateMenuButton('Produkty', 'http://localhost/Pages/eyetest-description.php',[
             (object)["text" => "Soczewki jednoogniskowe", "url" => "http://localhost/soczewki-jednoogniskowe.php"],
-             (object)["text" => "Soczewki wieloogniskowe", "url" => "http://localhost/soczewki-wieloogniskowe.php"]
+            (object)["text" => "Soczewki wieloogniskowe", "url" => "http://localhost/soczewki-wieloogniskowe.php"]
 
         ]); ?>
         <?php generateMenuButton('Kontakt', 'http://localhost/contakt-information.php',[]); ?>
@@ -22,4 +22,3 @@
     </nav>
 
 </header>
-

@@ -21,9 +21,9 @@ $instagramLink = 'https://www.instagram.com/optimistic.optyk.krakow/';
 $instagramText = '@optimistic.optyk.krakow';
 $facebookLink = 'https://www.facebook.com/OptimisticZakopianka/';
 $facebookText = 'Optimistic OPTYK Kraków Zakopianka';
-$eMailLink = 'example@example.com';
+$eMailLink = 'mailto:optimistic.krakow001@gmail.com';
 $eMailText = 'optimistic.krakow001@gmail.com';
-$phoneText = '518 114 935';
+$phoneText = 'tel:518 114 935';
 
 renderShopInformationComponent($videoSource, $mallTitle, $googleMapsLink, $adresText,
     $instagramLink, $instagramText,
