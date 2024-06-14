@@ -9,7 +9,7 @@ class ConnectionController
         $servername = "localhost";
         $database = "optimistic_page";
         $username = "root";
-        $password = "";
+        $password = "root";
 
         try {
             $this->conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
@@ -21,14 +21,20 @@ class ConnectionController
         }
     }
 
-    public function getVisitType()
+    public function getVisitType($age)
     {
         try {
-            $results = $this->conn->query("SELECT `type`, `typeLabel` FROM visit_type");
+            $stmt = $this->conn->prepare("SELECT `type`, `typeLabel` FROM visit_type WHERE `ageRange` <= :age");
+            $stmt->bindValue(':age', $age, PDO::PARAM_STR);
+            $stmt->execute();
         } catch (PDOException $e) {
             echo "Connection failed: " . $e->getMessage();
         }
-        return ($results);
+        $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
+       /* foreach($stmt->fetchAll() as $v) {
+            echo $v;
+        }*/
+        print_r($result);
     }
 
     public function getLocalizationsWithType($type)
@@ -47,3 +53,7 @@ WHERE visit_type.type = :type AND visit_type.ID = visit_type_localization.visitT
 
 
 }
+
+
+
+//SELECT `localization`.`name`  FROM visit_type, visit_type_location, localization WHERE "glasses" = `visit_type`.`type` AND `visit_type`.ID = visit_type_location.visitTypeID AND visit_type_location.localizationID = localization.ID;

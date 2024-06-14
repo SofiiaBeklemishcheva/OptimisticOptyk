@@ -84,3 +84,15 @@
   width: 110px;
   height: 100px;
 }
+
+@media only screen and (max-width: 1240px) {
+.eyetest-limitations-description-text{
+  width: 400px ;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .eyetest-limitations-description-text{
+    width: 200px ;
+  }
+}
